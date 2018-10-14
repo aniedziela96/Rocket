@@ -87,7 +87,7 @@ namespace Project1 {
 #pragma endregion
 	private: System::Void drawMyGraphics(System::Object^  sender, System::EventArgs^  e) {
 		
-		this->pos = 200;
+		this->pos = 700;
 		this->timer1->Enabled = true;
 
 		
@@ -193,7 +193,7 @@ namespace Project1 {
 
 	private: System::Void MyForm_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 		this->drawStars();
-		this->drawRocket(800, this->pos);
+		
 	}
 	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 		Graphics^ g = this->CreateGraphics();
