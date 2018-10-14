@@ -14,6 +14,7 @@ namespace Project1 {
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
+	private: int pos;
 	public:
 		MyForm(void)
 		{
